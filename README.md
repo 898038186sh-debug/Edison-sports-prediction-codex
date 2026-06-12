@@ -50,7 +50,7 @@ This repository is not a betting advice product, financial advice product, gambl
 
 ## Installation
 
-After this repository is public, users can add the marketplace from Codex CLI:
+Add the marketplace from Codex CLI:
 
 ```bash
 codex plugin marketplace add 898038186sh-debug/Edison-sports-prediction-codex --ref main
@@ -58,8 +58,6 @@ codex plugin marketplace list
 codex plugin list --available --json
 codex plugin add sports-prediction-codex-plugin --marketplace sports-prediction-skills
 ```
-
-This repository is published at `898038186sh-debug/Edison-sports-prediction-codex`.
 
 For local testing from the repository root:
 
@@ -126,26 +124,6 @@ See [docs/limitations.md](plugins/sports-prediction-codex-plugin/docs/limitation
 ## Responsible use disclaimer
 
 This project is for educational and analytical purposes only. It does not provide betting advice, financial advice, investment advice, or assured outcomes. Sports predictions are probabilistic and may be wrong. Do not rely on this project as the sole basis for financial decisions or gambling activity.
-
-## Recommended GitHub metadata
-
-Recommended repository name:
-
-```text
-Edison-sports-prediction-codex
-```
-
-Recommended description:
-
-```text
-A transparent Codex skill/plugin for structured sports match prediction reports, team form analysis, odds context, and uncertainty-aware forecasts.
-```
-
-Recommended topics:
-
-```text
-codex, codex-plugin, agent-skills, skill-md, sports-analytics, sports-prediction, match-prediction, football, soccer, nba, mlb, odds-analysis, prediction-markets, ai-agents
-```
 
 ## Contributing
 
