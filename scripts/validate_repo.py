@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Lightweight validation for the Sports Prediction Codex Skill repository."""
+"""Lightweight validation for the 体育预测 Codex Skill repository."""
 
 from __future__ import annotations
 
