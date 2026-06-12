@@ -1,6 +1,6 @@
-# Sports Prediction Codex Skill
+# 体育预测 Codex Skill
 
-A transparent Codex skill/plugin for structured sports match prediction reports, uncertainty-aware forecasts, and educational sports analytics.
+A transparent Codex skill/plugin for structured sports match prediction reports, uncertainty-aware forecasts, and educational sports analytics. The public display name is **体育预测**.
 
 ## Overview
 
