@@ -1,0 +1,27 @@
+name: Publish Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create v0.1.0 release if missing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v0.1.0 >/dev/null 2>&1; then
+            echo "Release v0.1.0 already exists."
+            exit 0
+          fi
+          gh release create v0.1.0 \
+            --target "$GITHUB_SHA" \
+            --title "v0.1.0 - Public release of Sports Prediction Codex Skill" \
+            --notes-file RELEASE_NOTES_v0.1.0.md
