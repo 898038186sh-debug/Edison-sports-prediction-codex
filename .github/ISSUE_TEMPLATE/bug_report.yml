@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a problem with the Sports Prediction Codex Skill
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the prompt and any relevant repo state.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: sport
+    attributes:
+      label: Sport or league
+      placeholder: Soccer, NBA, MLB, NFL, etc.
+  - type: textarea
+    id: data-freshness
+    attributes:
+      label: Data freshness issue?
+      description: Did the output fail to disclose missing or stale data?
+  - type: checkboxes
+    id: responsible-use
+    attributes:
+      label: Responsible-use acknowledgement
+      options:
+        - label: I understand this project is for educational analysis and not betting or financial advice.
+          required: true
