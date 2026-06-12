@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 - Rename public display
+
+- Renamed the public plugin display name to 体育预测.
+- Removed personal branding from plugin metadata.
+- Kept repository links pointed at the current GitHub URL until the repository itself is renamed.
+
 ## 0.1.1 - Public cleanup
 
 - Removed internal launch, promotion, handoff, and repository setup notes from the public repository.
