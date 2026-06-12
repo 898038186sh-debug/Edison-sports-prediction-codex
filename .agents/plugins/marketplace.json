@@ -1,7 +1,7 @@
 {
   "name": "sports-prediction-skills",
   "interface": {
-    "displayName": "Sports Prediction Skills"
+    "displayName": "体育预测"
   },
   "plugins": [
     {
