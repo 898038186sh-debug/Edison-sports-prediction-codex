@@ -1,4 +1,4 @@
-# Sports Prediction Codex Skill
+# 体育预测 Codex Skill
 
 这是一个给 Codex / AI agent 使用的球赛预测分析 skill/plugin。
 
