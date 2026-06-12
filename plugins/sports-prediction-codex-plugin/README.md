@@ -1,6 +1,6 @@
-# Sports Prediction Codex Plugin
+# 体育预测 Codex Plugin
 
-A transparent Codex plugin for structured sports match prediction reports, uncertainty-aware forecasts, and educational sports analytics.
+A transparent Codex plugin for structured sports match prediction reports, uncertainty-aware forecasts, and educational sports analytics. The public display name is **体育预测**.
 
 ## What it does
 
