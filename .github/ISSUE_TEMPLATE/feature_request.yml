@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an improvement for the Sports Prediction Codex Skill
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature summary
+    validations:
+      required: true
+  - type: input
+    id: sport
+    attributes:
+      label: Sport or league
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-output
+    attributes:
+      label: Proposed output change
+  - type: textarea
+    id: transparency
+    attributes:
+      label: Why does this improve transparency?
+  - type: textarea
+    id: risk
+    attributes:
+      label: Any risk of misleading predictions?

@@ -1,0 +1,44 @@
+{
+  "name": "sports-prediction-codex-plugin",
+  "version": "0.1.0",
+  "description": "A transparent Codex plugin for structured sports match prediction workflows, uncertainty-aware forecasts, and educational sports analytics.",
+  "author": {
+    "name": "Edison"
+  },
+  "homepage": "https://github.com/898038186sh-debug/Edison-sports-prediction-codex",
+  "repository": "https://github.com/898038186sh-debug/Edison-sports-prediction-codex",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "codex-plugin",
+    "agent-skills",
+    "skill-md",
+    "sports-analytics",
+    "sports-prediction",
+    "match-prediction",
+    "football",
+    "soccer",
+    "nba",
+    "mlb",
+    "odds-analysis",
+    "prediction-markets",
+    "ai-agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sports Prediction",
+    "shortDescription": "Structured sports prediction reports with uncertainty and transparent analysis.",
+    "longDescription": "A Codex plugin that guides AI agents through transparent pre-match sports analysis using team form, injuries, schedule context, venue factors, odds context when available, probability estimates, confidence levels, and explicit uncertainty notes. Educational use only; not betting or financial advice.",
+    "developerName": "Edison",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/898038186sh-debug/Edison-sports-prediction-codex",
+    "defaultPrompt": [
+      "Use the sports-prediction skill to analyze an upcoming match and produce a transparent prediction report.",
+      "Use the sports-prediction skill to compare team form, injuries, schedule context, odds context, uncertainty, and confidence level."
+    ]
+  }
+}

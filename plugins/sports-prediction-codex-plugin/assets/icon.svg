@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Sports Prediction Icon">
+  <rect width="128" height="128" rx="24" fill="#111827"/>
+  <circle cx="42" cy="44" r="20" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <path d="M27 44h30M42 24v40M30 31c8 9 16 17 24 26M54 31c-8 9-16 17-24 26" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M74 88l14-22 14 10 12-28" fill="none" stroke="#22c55e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M73 88h43" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>
