@@ -1,6 +1,6 @@
-# v0.1.0 - Public release of Sports Prediction Codex Skill
+# v0.1.0 - Public release of 体育预测
 
-This is the first public release of Sports Prediction Codex Skill.
+This is the first public release of 体育预测.
 
 ## What is included
 
