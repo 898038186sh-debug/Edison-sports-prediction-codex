@@ -33,7 +33,7 @@
 
 ## 安装方式
 
-仓库公开后，用户可以在 Codex CLI 中添加 marketplace：
+可以在 Codex CLI 中添加 marketplace：
 
 ```bash
 codex plugin marketplace add 898038186sh-debug/Edison-sports-prediction-codex --ref main
@@ -41,8 +41,6 @@ codex plugin marketplace list
 codex plugin list --available --json
 codex plugin add sports-prediction-codex-plugin --marketplace sports-prediction-skills
 ```
-
-当前仓库地址是 `898038186sh-debug/Edison-sports-prediction-codex`。
 
 ## 示例 prompt
 
