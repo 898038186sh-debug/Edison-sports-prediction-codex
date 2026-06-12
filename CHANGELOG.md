@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 - Update public repository links
+
+- Updated installation, homepage, repository, and website links to `Edison-777-crypto/sports-prediction`.
+- Removed the old GitHub username and old repository slug from public-facing current documentation.
+- Kept the public plugin display name as 体育预测 and retained responsible-use disclaimers.
+
 ## 0.1.2 - Rename public display
 
 - Renamed the public plugin display name to 体育预测.

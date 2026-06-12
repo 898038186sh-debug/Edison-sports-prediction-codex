@@ -53,7 +53,7 @@ This repository is not a betting advice product, financial advice product, gambl
 Add the marketplace from Codex CLI:
 
 ```bash
-codex plugin marketplace add 898038186sh-debug/Edison-sports-prediction-codex --ref main
+codex plugin marketplace add Edison-777-crypto/sports-prediction --ref main
 codex plugin marketplace list
 codex plugin list --available --json
 codex plugin add sports-prediction-codex-plugin --marketplace sports-prediction-skills

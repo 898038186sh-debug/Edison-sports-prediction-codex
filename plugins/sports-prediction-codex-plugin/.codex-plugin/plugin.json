@@ -1,12 +1,12 @@
 {
   "name": "sports-prediction-codex-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A transparent Codex plugin for structured sports match prediction workflows, uncertainty-aware forecasts, and educational sports analytics.",
   "author": {
     "name": "体育预测维护者"
   },
-  "homepage": "https://github.com/898038186sh-debug/Edison-sports-prediction-codex",
-  "repository": "https://github.com/898038186sh-debug/Edison-sports-prediction-codex",
+  "homepage": "https://github.com/Edison-777-crypto/sports-prediction",
+  "repository": "https://github.com/Edison-777-crypto/sports-prediction",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -35,7 +35,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/898038186sh-debug/Edison-sports-prediction-codex",
+    "websiteURL": "https://github.com/Edison-777-crypto/sports-prediction",
     "defaultPrompt": [
       "Use the sports-prediction skill to analyze an upcoming match and produce a transparent prediction report.",
       "Use the sports-prediction skill to compare team form, injuries, schedule context, odds context, uncertainty, and confidence level."
