@@ -3,7 +3,7 @@ name: sports-prediction
 description: Structured sports match prediction workflow emphasizing transparency, uncertainty, data freshness, and educational analysis. Not betting or financial advice.
 ---
 
-# Sports Prediction Skill
+# 体育预测 Skill
 
 ## Purpose
 

@@ -1,6 +1,6 @@
 # v0.1.1 - Public repository cleanup
 
-This release cleans up the public repository presentation while preserving the Sports Prediction Codex Skill behavior.
+This release cleans up the public repository presentation while preserving the 体育预测 skill behavior.
 
 ## What changed
 
