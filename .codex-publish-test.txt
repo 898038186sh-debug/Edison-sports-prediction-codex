@@ -1,0 +1,1 @@
+Codex publish permission test.
