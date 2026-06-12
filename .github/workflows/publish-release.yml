@@ -13,15 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Create v0.1.2 release if missing
+      - name: Create v0.1.3 release if missing
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.1.2 >/dev/null 2>&1; then
-            echo "Release v0.1.2 already exists."
+          if gh release view v0.1.3 >/dev/null 2>&1; then
+            echo "Release v0.1.3 already exists."
             exit 0
           fi
-          gh release create v0.1.2 \
+          gh release create v0.1.3 \
             --target "$GITHUB_SHA" \
-            --title "v0.1.2 - Rename public display to 体育预测" \
-            --notes-file RELEASE_NOTES_v0.1.2.md
+            --title "v0.1.3 - Update public repository links" \
+            --notes-file RELEASE_NOTES_v0.1.3.md
